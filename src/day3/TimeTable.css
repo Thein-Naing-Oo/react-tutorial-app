@@ -1,0 +1,39 @@
+.timetable {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 1 column for days, 3 for times */
+    gap: 2px;
+    background-color: #f0f0f0;
+}
+
+.cell {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.cell.header {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+}
+
+.cell.event {
+    background-color: #4caf50;
+    color: white;
+}

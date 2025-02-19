@@ -1,0 +1,36 @@
+.flag {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.first-sector {
+    width: 100px;
+    height: 400px;
+    background: #0018A8;
+}
+
+.second-sector {
+    width: 100px;
+    height: 400px;
+    background: #FEDF00;
+}
+
+.third-sector {
+    width: 100px;
+    height: 400px;
+    background: #ED1B24;
+}
+
+.fourth-sector {
+    width: 100px;
+    height: 400px;
+    background: #FFFFFF;
+}
+
+.fifth-sector {
+    width: 100px;
+    height: 400px;
+    background: #FF9800;
+}
